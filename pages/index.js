@@ -32,6 +32,9 @@ const Home = () => (
          or share any of your personal information. We don’t store your search history. We therefore have nothing
          to sell to advertisers that track you across the Internet. Other search engines track your searches even when you’re
          in private browsing mode. We don’t track you — period.</p>
+         <ul>
+          <li><a href="https://www.wired.com/story/i-ditched-google-for-duckduckgo-heres-why-you-should-too/">I Ditched Google for DuckDuckGo. Here's Why You Should Too</a> -Wired</li>
+         </ul>
        </a>
        <a
          href='https://www.mozilla.org/en-US/firefox/privacy/products/'
@@ -41,6 +44,18 @@ const Home = () => (
          <p>
 
          Tracking has become an epidemic online: companies follow every move, click and purchase, collecting data to predict and influence what you’ll do next. We think that’s a gross invasion of your privacy. That’s why Firefox mobile and desktop browsers have Enhanced Tracking Protection on by default. </p>
+       </a>
+     </div>
+      <div className='row'>
+       <a href='https://www.cloze.com/' className='card'>
+         <h3>Cloze - Smarter Relationship Management &rarr;</h3>
+         <p>We won't spam your contacts or social networks.</p>
+         <p>We won't share or sell your information. It's for your eyes only.</p>
+         <p>We'll be open and transparent about how we use your information within Cloze.</p>
+       </a>
+       <a href='#' className='card'>
+         <h3>Another Privacy Focused Product Here?? &rarr;</h3>
+         <p>More coming soon...</p>
        </a>
      </div>
    </div>
@@ -89,6 +104,10 @@ const Home = () => (
         padding: 12px 0 0;
         font-size: 13px;
         color: #333;
+      }
+      ul {
+        margin: 0;
+        padding: 10px;
       }
     `}</style>
   </div>
